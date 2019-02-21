@@ -5,64 +5,27 @@ body {
 }
 
 h1 {
-	/*font-size: 8em;*/
 	font-size: 18vh;
 	font-family: 'Lobster';
-	/*color: #89ACFE;*/
 	color: #3C74F5;
-}
-
-/*p {
-	font-family: 'Raleway';
-	font-size: 1.5em;
 }
 
 h3 {
 	font-family: 'Raleway';
 	font-style: bold;
-}*/
+}
+
+p {
+	font-family: 'Comfortaa';
+	font-size: 1.2em;
+}
 
 .btn {
 	background-color: #3C74F5;
 	border-color: #3C74F5;
 	font-family: 'Lobster';
-	/*text-transform: lowercase;
-	font-size: 20px;*/
+	font-size: 1.3em;
 }
-
-/*-----------------*/
-
-/*.flex {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin: 6em;
-	justify-content: center;
-	align-items: center;
-}*/
-
-.title {
-	margin-bottom: 0.3em;
-	margin-top: 5em;
-}
-
-.paragraph {
-	text-align: center;
-	width: 20em;
-	margin-bottom: 2em;
-	margin-left: 38.9%;
-}
-
-.search {
-	width: 30em;
-	/*width: 25em;*/
-}
-
-.percentile {
-	text-align: center;
-}
-
-/*-----------------*/
 
 .grid-container {
   display: grid;
@@ -79,14 +42,28 @@ h3 {
 	align-items: center;
 }
 
-p {
-	font-family: 'Comfortaa';
-	font-size: 1.2em;
-} 
+.title {
+	margin-bottom: 0.3em;
+	margin-top: 5em;
+}
+
+.paragraph {
+	text-align: center;
+	width: 20em;
+	margin-bottom: 2em;
+	margin-left: 38.9%;
+}
+
+.search {
+	width: 30em;
+}
+
+.percentile {
+	text-align: center;
+}
 
 .output-styling {
 	font-family: 'Comfortaa';
-	/*color: #8C7F90;*/
 }
 
 .percent-color {
@@ -97,8 +74,3 @@ p {
 	font-size: 3em;
 	font-family: 'Lobster';
 }
-
-
-
-
-

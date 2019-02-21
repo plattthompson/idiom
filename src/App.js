@@ -18,13 +18,13 @@ class App extends Component {
     const userInputLowercase = userInput.toLowerCase();
     const userInputNoPunctuation = removePunctuation(userInputLowercase);
     let splitString = userInputNoPunctuation.split(' ');
-    await fetch('http://localhost:3000', {
+    await fetch('https://pacific-anchorage-19863.herokuapp.com', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(splitString)
     })
     .then(response => response.json())
-    .then(number => {this.setState({ percentile: number })});
+    .then(number => {this.setState({ percentile: number })})
   }
 
   render() {
