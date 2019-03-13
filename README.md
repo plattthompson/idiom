@@ -1,4 +1,4 @@
-## Idiom
+# Idiom
 
 A language-learning app that shows you the frequency of commonly used words.
 
@@ -8,14 +8,14 @@ Just type in a sentence or phrase into the search bar. Idiom will tell you what 
 
 ### Built with:
 
--React
--Node.js
--Express.js
--Knex
--PostgreSQL
--Javascript (ES6)
--HTML
--CSS
+- React
+- Node.js
+- Express.js
+- Knex
+- PostgreSQL
+- Javascript (ES6)
+- HTML
+- CSS
 
 ### Author
 
