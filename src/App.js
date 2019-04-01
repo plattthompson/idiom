@@ -30,8 +30,8 @@ class App extends Component {
   render() {
     return (
       <div>
-	      <div>
-	      	<div className="grid-container">
+	      <div className="mobile-flexbox">
+	      	<div className="flexbox">
             <Title />
             <Paragraph />
           </div>

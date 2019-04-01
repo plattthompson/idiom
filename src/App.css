@@ -27,17 +27,16 @@ p {
 	font-size: 1.3em;
 }
 
-.grid-container {
-  display: grid;
-  height: 50vh;
-  grid-template-rows: 1.5fr 0.5fr;
-  grid-gap: 10px;
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.flex{
+.flex {
 	display: flex;
-	margin-top: 8em;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -48,10 +47,9 @@ p {
 }
 
 .paragraph {
-	text-align: center;
 	width: 20em;
-	margin-bottom: 2em;
-	margin-left: 38.9%;
+	margin-bottom: 1.1em;
+	margin-top: 0.7em;
 }
 
 .search {
@@ -73,4 +71,53 @@ p {
 .percent-styling {
 	font-size: 3em;
 	font-family: 'Lobster';
+}
+
+/*__________MEDIA QUERIES__________*/
+
+/*MOBILE DEVICES*/
+
+@media only screen and (max-device-width: 420px) and (min-device-width: 320px) {
+
+	.title {
+		margin-top: 0em;
+	}
+
+	.paragraph {
+		margin-bottom: 0em;
+	}
+
+	.search {
+		width: 100%;
+	}
+
+	.flexbox {
+		display: flex;
+		flex-wrap: wrap;
+		direction: column;
+		justify-content: center;
+	}
+
+	.flex {
+		flex-wrap: wrap;
+		margin-top: 3em;
+	}
+
+	.mobile-flexbox {
+		display: flex;
+		flex-wrap: wrap;
+		direction: column;
+		justify-content: center;
+	}
+	
+}
+
+/*iPHONE 5/SE*/
+
+@media only screen and (max-device-width: 320px) {
+
+	.flexbox {
+		margin-bottom: 3em;
+	}
+
 }
