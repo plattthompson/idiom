@@ -5,11 +5,12 @@ class Search extends React.Component {
 		return(
 			<div className="search animated fadeInUp">
 				<form onSubmit={this.props.searchDatabase} className="input-group mb-3">
-					<input 
-						type="text" 
-						name="userInput" 
+					<input
+						type="text"
+						name="userInput"
 						className="form-control"
-						placeholder="Type your sentence here" 
+						placeholder="Type your sentence here"
+						autocomplete="off"
 						required>
 					</input>
 					<div className="input-group-append">
